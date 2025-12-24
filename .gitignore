@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local envs
+.venv/
+venv/
+.env
+.env.*
+
+# Logs
+logs/
+logs.txt
+
+# Data/artifacts
+downloads/
+json/
+reports/
+runs/
+samples/
+UTAP_1_word_padded/
+UTAP_1_*.csv
+UTAP_1_*.json
+sample.b64
+
+# Model artifacts
+transcribe_bundle/checkpoint/
