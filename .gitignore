@@ -25,5 +25,6 @@ UTAP_1_*.csv
 UTAP_1_*.json
 sample.b64
 
-# Model artifacts
-transcribe_bundle/checkpoint/
+# Model artifacts (keep empty checkpoint dir tracked via .gitkeep)
+transcribe_bundle/checkpoint/*
+!transcribe_bundle/checkpoint/.gitkeep
